@@ -1,54 +1,35 @@
-# Astro Starter Kit: Basics
+# INNOVATEProweb Identity
 
-```sh
-npm create astro@latest -- --template basics
-```
+Bienvenido al **INNOVATEProweb Identity**. Este repositorio es un espacio centralizado donde podrás acceder a todos los elementos de identidad visual de INNOVATEProweb, permitiéndote:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+- **Ver y copiar fácilmente** los colores corporativos con un solo clic.
+- **Acceder y utilizar la tipografía** de INNOVATEProweb.
+- **Descargar versiones** del logo en distintos formatos y tamaños.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## ¿Qué encontrarás aquí?
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+1. **Paleta de Colores**:
+   - Visualización de los colores de la marca.
+   - Botones para copiar el código hexadecimal de cada color.
 
-## 🚀 Project Structure
+2. **Tipografía**:
+   - Detalles sobre la tipografía oficial utilizada.
+   - Enlaces de descarga y ejemplos de uso.
 
-Inside of your Astro project, you'll see the following folders and files:
+3. **Logos**:
+   - Archivos de logo en formatos PNG y GIF.
+   - Diferentes versiones del logo.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## ¿Cómo usar este repositorio?
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- **Colores**: Dirígete a la sección de la paleta de colores, haz clic en el color que desees.
+- **Tipografía**: Visita la sección de tipografía para ver ejemplos y descargar los archivos necesarios.
+- **Logos**: Navega a "logos" y selecciona el archivo que necesitas.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Contribuciones
 
-Any static assets, like images, can be placed in the `public/` directory.
+Este repositorio está diseñado para ser una fuente de referencia y apoyo. Si tienes alguna sugerencia o mejoras, no dudes en abrir un _issue_ o enviar un _pull request_.
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+¡Gracias por utilizar el InnovateProWeb Identity!
