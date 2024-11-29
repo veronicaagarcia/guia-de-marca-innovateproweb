@@ -48,21 +48,28 @@ export default function Component() {
       <Card>
         <CardHeader>
           <div className='flex items-center justify-center gap-3'>
-          <CardTitle className="text-center text-3xl font-medium font-Titulos text-text">Guía de marca de</CardTitle>
-          <h2 class="text-center text-3xl font-medium text-text font-Logo tracking-wider">INNOVATE<span class="text-primary">Proweb</span></h2>
+            <CardTitle className="text-center text-3xl font-medium font-Titulos text-text">Guía de marca</CardTitle>
+          </div>
+          <div class="bg-white rounded-lg shadow-lg border-2 flex items-center justify-center">
+            <img 
+              src="/inno.png" 
+              alt="INNOVATEProweb banner" 
+              class="max-w-full h-auto rounded-lg"
+            />
           </div>
         </CardHeader>
         <CardContent>
-          <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-4">
-            <TabsList className="grid w-full grid-cols-2 md:grid-cols-4">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-8">
+            <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-4 h-fit">
               <TabsTrigger value="colores">Colores</TabsTrigger>
               <TabsTrigger value="tipografia">Tipografía</TabsTrigger>
               <TabsTrigger value="logo">Logo</TabsTrigger>
               <TabsTrigger value="instagram">Instagram</TabsTrigger>
+              <TabsTrigger value="identidad">Identidad</TabsTrigger>
             </TabsList>
 
             {/* COLORES */}
-            <TabsContent value="colores" className="space-y-4">
+            <TabsContent value="colores" className="space-y-6">
               <h3 className="text-2xl font-Titulos font-semibold text-text mb-4">Colores de la marca</h3>
               <p className="text-sm text-muted-foreground mt-4">
                 Haz clic en el color para descargar el color al portapapeles.
@@ -93,7 +100,7 @@ export default function Component() {
                   El color blanco sucio para fondos y áreas amplias.
                 </p>
                 <p className="text-sm w-fit text-instagramBackground bg-accent2">
-                  El color beige para fondos en instagram.
+                  El color beige para fondos.
                 </p>
                 <p className="text-sm text-accent1">
                   El verde para destacar elementos y crear contraste. 
@@ -111,7 +118,7 @@ export default function Component() {
                 <p className='text-text'>Haz clic para copiar el enlace de Google Fonts</p>
                 <div className="space-y-6">
                   <div 
-                    className="space-y-2 cursor-pointer"
+                    className="space-y-2 cursor-pointer hover:text-primary"
                     onClick={() => copiarEnlaceFuente('https://fonts.google.com/specimen/League+Gothic')}>
                     <h1 className="text-4xl font-medium font-Logo">INNOVATEProweb</h1>
                     <p className="text-sm text-muted-foreground">
@@ -120,7 +127,7 @@ export default function Component() {
                   </div>
                   <hr/>
                   <div 
-                    className="space-y-2 cursor-pointer"
+                    className="space-y-2 cursor-pointer hover:text-primary"
                     onClick={() => copiarEnlaceFuente('https://fonts.google.com/specimen/Montserrat')}>
                     <h2 className="text-2xl font-semibold font-Titulos">Títulos</h2>
                     <p className="text-sm text-muted-foreground">
@@ -129,7 +136,7 @@ export default function Component() {
                   </div>
                   <hr/>
                   <div 
-                    className="space-y-2 cursor-pointer"
+                    className="space-y-2 cursor-pointer hover:text-primary"
                     onClick={() => copiarEnlaceFuente('https://fonts.google.com/specimen/Inter')}>
                     <p className="text-base font-normal font-Textos">
                     Textos
@@ -140,7 +147,7 @@ export default function Component() {
                   </div>
                   <hr/>
                   <div 
-                    className="space-y-2 cursor-pointer"
+                    className="space-y-2 cursor-pointer hover:text-primary"
                     onClick={() => copiarEnlaceFuente('https://fonts.google.com/specimen/Dancing+Script')}>
                     <p className="text-base font-normal font-instagram1">
                     Instagram
@@ -315,6 +322,8 @@ export default function Component() {
               <div className="space-y-4">
                 <h3 className="text-2xl font-Titulos font-semibold text-text">Pautas para Instagram</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                  {/* FEED */}
                   <Card>
                     <CardContent className="p-6">
                       <h4 className="font-medium mb-4">Estilo de Feed</h4>
@@ -330,6 +339,8 @@ export default function Component() {
                       </p>
                     </CardContent>
                   </Card>
+
+                  {/* REELS */}
                   <Card>
                     <CardContent className="p-6">
                       <h4 className="font-medium mb-4">Reels</h4>
@@ -350,6 +361,8 @@ export default function Component() {
                       </p>
                     </CardContent>
                   </Card>
+
+                  {/* HISTORIAS */}
                   <Card>
                   <CardContent className="p-6">
                       <h4 className="font-medium mb-4">Historias</h4>
@@ -386,10 +399,12 @@ export default function Component() {
                         />
                       </div>
                       <p className="text-sm text-muted-foreground mt-4">
-                        Plantillas: innovatip y sabias que son iguales. Frase de buen día. Fondo para encuesta. Dia internacional de... Memercoles imagen. Memercoles video.
+                        Plantillas: innovatip y sabias que son iguales. Frase de buen día. Dia internacional de... Memercoles imagen. Memercoles video.
                       </p>
                     </CardContent>
                   </Card>
+
+                  {/* POST */}
                   <Card>
                     <CardContent className="p-6">
                       <h4 className="font-medium mb-4">Post</h4>
@@ -425,41 +440,43 @@ export default function Component() {
                           className="max-w-[50%] h-auto rounded-lg mb-2"
                         />
                          <img 
-                          src="/" 
+                          src="/PLANTILLA1.png" 
                           alt="Plantilla post proyecto feed izquierdo claro" 
-                          className="max-w-[50%] h-auto rounded-lg my-6"
+                          className="max-w-[50%] h-auto rounded-lg mb-2"
                         />
-                          <img 
+                          {/* <img 
                             src="/" 
                             alt="Plantilla post proyecto feed izquierdo oscuro" 
                             className="max-w-[50%] h-auto rounded-lg my-6"
-                          />
+                          /> */}
                       <img 
-                          src="/" 
+                          src="/PLANTILLA2.png" 
                           alt="Plantilla post proyecto feed centro claro" 
-                          className="max-w-[50%] h-auto rounded-lg my-6"
+                          className="max-w-[50%] h-auto rounded-lg mb-2"
                         />
-                          <img 
+                          {/* <img 
                               src="/" 
                               alt="Plantilla post proyecto feed centro oscuro" 
                               className="max-w-[50%] h-auto rounded-lg my-6"
-                            />
+                            /> */}
                          <img 
-                          src="/" 
+                          src="/PLANTILLA3.png" 
                           alt="Plantilla post proyecto feed derecho claro" 
-                          className="max-w-[50%] h-auto rounded-lg my-6"
+                          className="max-w-[50%] h-auto rounded-lg mb-2"
                         />
-                         <img 
+                         {/* <img 
                           src="/" 
                           alt="Plantilla post proyecto feed derecho oscuro" 
                           className="max-w-[50%] h-auto rounded-lg my-6"
-                        />
+                        /> */}
                       </div>
                       <p className="text-sm text-muted-foreground mt-4">
                         Usa plantillas consistentes con los colores de la marca. Ejemplos de cada una.
                       </p>
                     </CardContent>
                   </Card>
+
+                  {/* HASH */}
                   <Card>
                     <CardContent className="p-6">
                       <h4 className="font-medium mb-4">Uso de Hashtags</h4>
@@ -473,6 +490,8 @@ export default function Component() {
                       </p>
                     </CardContent>
                   </Card>
+
+                  {/* HERRAMIENTAS DE GESTION */}
                   <Card>
                     <CardContent className="p-6">
                       <h4 className="font-medium mb-4">Herramientas de Gestión</h4>
@@ -503,6 +522,32 @@ export default function Component() {
                 </div>
               </div>
             </TabsContent>
+
+            {/* IDENTIDAD */}
+            <TabsContent value="identidad" className="space-y-6">
+              <div className="space-y-4">
+                <h3 className="text-2xl font-Titulos font-semibold text-text">Identidad</h3>
+                <p className='text-text'>Haz clic para abrir el enlace de cada documento</p>
+                <div className="space-y-8">
+
+                  <a 
+                    className="space-y-2 cursor-pointer hover:text-primary"
+                    href='https://docs.google.com/document/d/1xBjM201ulgwtDDatcjkm7Fvcr-L6ilnon_dTizbjz8I/edit?tab=t.0' target="_blank" rel="noopener noreferrer">
+                    <h3 className="text-base md:text-lg xl:text-3xl font-medium">Quiénes somos</h3>
+                  </a>
+                  <hr/>
+                 
+                  <a 
+                    className="space-y-2 cursor-pointer hover:text-primary"
+                    href='https://drive.google.com/file/d/1_p0gtn6VT9lrty8FqyLH3-viQmtk0Vpo/view' target="_blank" rel="noopener noreferrer">
+                    <h3 className="text-base md:text-lg xl:text-3xl font-normal">Definición de Buyer Persona, User Persona y Público Objetivo</h3>
+                  </a>
+                  <hr/>
+                  
+                </div>
+              </div>
+            </TabsContent>
+
           </Tabs>
         </CardContent>
       </Card>

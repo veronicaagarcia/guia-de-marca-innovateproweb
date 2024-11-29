@@ -20,6 +20,14 @@ Bienvenido al **INNOVATEProweb Identity**. Este repositorio es un espacio centra
    - Archivos de logo en formatos PNG y GIF.
    - Diferentes versiones del logo.
 
+4. **Intagram**:
+   - Diferentes versiones, colores, formatos y herramientas de gestión de instagram.
+
+5. **Identidad**:
+   - Quiénes somos, dónde encontrarnos, qué herramientas usamos.
+
+
+
 ## ¿Cómo usar este repositorio?
 
 - **Colores**: Dirígete a la sección de la paleta de colores, haz clic en el color que desees.
