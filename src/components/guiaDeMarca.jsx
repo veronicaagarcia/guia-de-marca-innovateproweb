@@ -533,28 +533,28 @@ export default function Component() {
                   <a 
                     className="space-y-2 cursor-pointer hover:text-primary"
                     href='https://docs.google.com/document/d/1xBjM201ulgwtDDatcjkm7Fvcr-L6ilnon_dTizbjz8I/edit?tab=t.0' target="_blank" rel="noopener noreferrer">
-                    <h3 className="text-base md:text-lg xl:text-3xl font-medium">Quiénes somos</h3>
+                    <h3 className="text-base md:text-lg xl:text-xl font-medium">Quiénes somos</h3>
                   </a>
                   <hr/>
                  
                   <a 
                     className="space-y-2 cursor-pointer hover:text-primary"
                     href='https://drive.google.com/file/d/1_p0gtn6VT9lrty8FqyLH3-viQmtk0Vpo/view' target="_blank" rel="noopener noreferrer">
-                    <h3 className="text-base md:text-lg xl:text-3xl font-normal">Definición de Buyer Persona, User Persona y Público Objetivo</h3>
+                    <h3 className="text-base md:text-lg xl:text-xl font-normal">Definición de Buyer Persona, User Persona y Público Objetivo</h3>
                   </a>
                   <hr/>
 
                   <a 
                     className="space-y-2 cursor-pointer hover:text-primary"
                     href='https://docs.google.com/document/d/1C3-t7ySTfyR0X9QR66cgsqm7yJIhBtsxqcIclDNb1Ls/edit?tab=t.0#heading=h.f440g3oajriw' target="_blank" rel="noopener noreferrer">
-                    <h3 className="text-base md:text-lg xl:text-3xl font-normal">Encuesta de Feedback para Clientes</h3>
+                    <h3 className="text-base md:text-lg xl:text-xl font-normal">Encuesta de Feedback para Clientes</h3>
                   </a>
                   <hr/>
 
                   <a 
                     className="space-y-2 cursor-pointer hover:text-primary"
                     href='https://docs.google.com/document/d/1Q7xr9xMAgfxv6sCSFlUnXB0c5zQ69PsKVbJpuUYIEpY/edit?tab=t.0' target="_blank" rel="noopener noreferrer">
-                    <h3 className="text-base md:text-lg xl:text-3xl font-normal">Business Model Canvas - SCRUM </h3>
+                    <h3 className="text-base md:text-lg xl:text-xl font-normal">Business Model Canvas - SCRUM </h3>
                   </a>
                   <hr/>
                   
