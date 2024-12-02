@@ -550,6 +550,13 @@ export default function Component() {
                     <h3 className="text-base md:text-lg xl:text-3xl font-normal">Encuesta de Feedback para Clientes</h3>
                   </a>
                   <hr/>
+
+                  <a 
+                    className="space-y-2 cursor-pointer hover:text-primary"
+                    href='https://docs.google.com/document/d/1Q7xr9xMAgfxv6sCSFlUnXB0c5zQ69PsKVbJpuUYIEpY/edit?tab=t.0' target="_blank" rel="noopener noreferrer">
+                    <h3 className="text-base md:text-lg xl:text-3xl font-normal">Business Model Canvas - SCRUM </h3>
+                  </a>
+                  <hr/>
                   
                 </div>
               </div>
