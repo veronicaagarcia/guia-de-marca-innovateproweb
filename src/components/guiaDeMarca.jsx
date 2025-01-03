@@ -551,6 +551,14 @@ export default function Component() {
                   <li>
                   <a 
                     className="space-y-2 cursor-pointer text-text hover:text-primary"
+                    href='https://app.asana.com/0/1208913443956908/1208913658843536' target="_blank" rel="noopener noreferrer">
+                    <h3 className="text-base md:text-lg xl:text-xl font-normal">Buyer img link Asana</h3>
+                  </a>
+                  </li>
+                  <hr/>
+                  <li>
+                  <a 
+                    className="space-y-2 cursor-pointer text-text hover:text-primary"
                     href='https://docs.google.com/document/d/1C3-t7ySTfyR0X9QR66cgsqm7yJIhBtsxqcIclDNb1Ls/edit?tab=t.0#heading=h.f440g3oajriw' target="_blank" rel="noopener noreferrer">
                     <h3 className="text-base md:text-lg xl:text-xl font-normal">Encuesta de Feedback para Clientes</h3>
                   </a>
@@ -568,7 +576,6 @@ export default function Component() {
                 </div>
               </div>
             </TabsContent>
-
           </Tabs>
         </CardContent>
       </Card>
